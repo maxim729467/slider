@@ -127,7 +127,7 @@ export default function Form() {
             max={100}
             name="firstSeed"
           />
-          <p>{firstSeedValue}%</p>
+          <p className="Form__seed-value">{firstSeedValue}%</p>
         </div>
         <div className="Form__slider-block">
           <div className="Form__icon-block Form__second-icon">
@@ -145,7 +145,7 @@ export default function Form() {
             max={100}
             name="secondSeed"
           />
-          <p>{secondSeedValue}%</p>
+          <p className="Form__seed-value">{secondSeedValue}%</p>
         </div>
         <div className="Form__slider-block">
           <div className="Form__icon-block Form__third-icon">
@@ -163,7 +163,7 @@ export default function Form() {
             max={100}
             name="thirdSeed"
           />
-          <p>{thirdSeedValue}%</p>
+          <p className="Form__seed-value">{thirdSeedValue}%</p>
         </div>
         <div className="Form__slider-block">
           <div className="Form__icon-block Form__fourth-icon">
@@ -182,7 +182,7 @@ export default function Form() {
             max={100}
             name="fourthSeed"
           />
-          <p>{fourthSeedValue}%</p>
+          <p className="Form__seed-value">{fourthSeedValue}%</p>
         </div>
         <div className="Form__pack-btn-row">
           <div className="Form__icon-block Form__fifth-icon">
