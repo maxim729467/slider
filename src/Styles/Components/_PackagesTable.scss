@@ -1,0 +1,154 @@
+.PackagesModal {
+  min-width: 800px;
+  min-height: 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 20px 0px;
+
+  position: absolute;
+  top: 50px;
+  right: 50%;
+  transform: translateX(60%);
+
+  z-index: 1;
+
+  color: $table-font-color;
+
+  background-color: rgb(241, 241, 241);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.PackagesModal__table {
+}
+
+.PackagesModal__pack-row {
+}
+
+.PackagesModal__data {
+  padding-right: 15px;
+  color: $theme-color;
+}
+
+.PackagesModal__decor-row::after {
+  content: "";
+  display: block;
+  width: 53%;
+  height: 2px;
+  position: absolute;
+  background-color: rgb(187, 187, 187);
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.PackagesModal__head {
+  text-transform: uppercase;
+  padding-right: 15px;
+  text-align: start;
+  font-weight: 500;
+}
+
+.PackagesModal__icon {
+  border-radius: 50%;
+  border: 1px solid $table-font-color;
+  padding: 2px;
+  color: $table-font-color;
+}
+
+.PackagesModal__remove-btn {
+  border-style: none;
+  border: 1px solid $primary-font-color;
+  border-radius: 50%;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  padding: 4px;
+  width: 20px;
+  height: 20px;
+
+  background-color: transparent;
+
+  transition: all 250ms ease;
+}
+
+.PackagesModal__remove-btn:hover,
+.PackagesModal__remove-btn:focus {
+  background-color: rgba(189, 189, 189, 0.603);
+  transform: scale(1.2);
+}
+
+.PackagesModal__modal-close {
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  transition: all 250ms ease;
+}
+
+.PackagesModal__modal-close:hover,
+.PackagesModal__modal-close:focus {
+  background-color: rgba(189, 189, 189, 0.603);
+}
+
+.PackagesModal__input {
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+}
+
+.PackagesModal__summary-block {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 170px;
+  margin-top: 20px;
+}
+
+.PackagesModal__summary-btn {
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  background-color: $theme-color;
+  border-radius: 15px;
+  border-style: none;
+  text-transform: uppercase;
+  color: $secondary-font-color;
+  font-weight: 500;
+  padding: 5px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PackagesModal__total {
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.PackagesModal__total-number {
+  font-size: 24px;
+}

@@ -1,0 +1,51 @@
+.NavBar {
+  height: 50px;
+
+  background-color: $primary-bg-color;
+  color: $secondary-font-color;
+
+  display: flex;
+  align-items: center;
+}
+
+.NavBar__panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavBar__rightBlock {
+  display: flex;
+  align-items: center;
+}
+
+.NavBar__logo {
+  font-size: 40px;
+  position: relative;
+  top: 18px;
+
+  font-family: "Dancing Script", cursive;
+}
+
+.NavBar__quantity,
+.NavBar__total {
+  margin-right: 100px;
+}
+
+.NavBar__btn {
+  width: 100px;
+  height: 30px;
+  color: $secondary-font-color;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.NavBar__btn-name {
+  margin-right: 5px;
+}

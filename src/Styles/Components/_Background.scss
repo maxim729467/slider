@@ -1,0 +1,24 @@
+.TopBackground {
+  background-color: $secondary-bg-color;
+  height: 150px;
+}
+
+.MainBackground {
+  background-image: linear-gradient(
+      to right,
+      rgba(231, 231, 231, 0.884),
+      rgba(233, 233, 233, 0.877)
+    ),
+    url(../../Images/crackers-background.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  //   height: 500px;
+}
+
+.BottomBackground {
+  background-color: $primary-bg-color;
+  height: 200px;
+}

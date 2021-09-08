@@ -1,0 +1,19 @@
+.Form-block {
+  padding-top: 90px;
+  padding-bottom: 60px;
+
+  background-color: #b9030393, url(../../Images/crackers-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  //   height: 200px;
+}
+
+.Form-block__title {
+  text-align: center;
+  text-transform: uppercase;
+
+  font-weight: 700;
+  margin-bottom: 30px;
+}
